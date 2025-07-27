@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FIX.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+       <div class="cover">
+       <div class="cbox">
+        <div class="imgbox"></div>
+       </div>
+       <div class="cbox"data-aos="fade-down">
+        <h1 style="color: white; " class="h1">Hi, I'm Pranjul Yadav <br></h1> 
+            <h3 class="h3"> <span id="skills"></span></h3>
+            <button id="btn"onclick ='show()'>
+                <div id="ani">
+                    Resume  
+                </div>
+            </button>
+        </div>
+       </div>
+
+       
+       <div id="resume">
+        <button style="background-color: red;width: 30px;" onclick='hideCv()'>X</button>
+        <header>
+            <h1>Pranjul Yadav</h1>
+            <p>Graduate</p>
+            <a href="">Email: yadavpranjul6@gmail.com | Phone: 6387642253</a>
+        </header>
+        
+        <section class="summary">
+            <h2>Summary</h2>
+            <p style="margin-top: 10px;">Enthusiastic Web Developer with a strong foundation in front-end and back-end technologies. Skilled in HTML, CSS, JavaScript, and React.js, with a focus on building responsive and user-friendly web applications. Eager to learn and grow in a dynamic development environment</p>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Business Analyst Intern</h3>
+                <p>Ozibook | 2 months</p>
+                <ul>
+                    <li>Gathered and documented business requirements.</li>
+                    <li>Conducted market research and data analysis.</li>
+                    <li>Developed process improvement strategies.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>Bootstrap</li>
+            </ul>
+        </section>  
+       </div>
+    
+
+       <div class="About">
+        <div class="abox">
+            <div class="pimgbox"></div>
+        </div>
+        <div class="abox"data-aos="fade-right">
+           
+            <p>I am Pranjul Yadav, an Indian national with a B-Tech degree in Computer Science and Engineering. I am passionate about developing innovative digital solutions and contributing to impactful projects that drive technological advancement and efficiency. With a strong analytical mindset and problem-solving abilities, I strive to leverage technology to create meaningful and effective solutions.<br></p>
+            <p><br> <br>Beyond my professional interests, I actively engage in sports like cricket and badminton, which enhance my teamwork and strategic thinking skills. I also have a deep appreciation for reading, continuously expanding my knowledge to stay informed and adaptable in an ever-evolving industry.</p>
+        </div>
+       </div>
+
+       <div class="qualification">
+       <div class="qbox">
+        <h2 style="margin-bottom: 20px;">Education</h2>
+        <div class="ebox">
+            <h3>12th <br> Lucknow Public College 2020</h3>
+            </div>
+        <div class="ebox">
+            <h3>B-Tech <br> Babu Banarasi Das Engineering College 2024</h3>
+        </div>
+       </div>
+       <div class="qbox">
+        <h2 style="margin-bottom: 20px;">Certification</h2>
+        <div class="ebox"><h3>Artificial Intelligence&Machine Learning<br>From Hexnbit </h3></div>
+        <div class="ebox"><h3>Internship At Ozibook As a Business Analyst <br> 2023</h3></div>
+       </div>
+     </div>
+
+     <div class="skill">
+        <h2>MY SKILLS</h2>
+        <div class="skbox">
+        <div class="sbox">
+            <h3>HTML</h3>
+            <div class="barbox">
+                <div class="bar"></div>
+                <h4>90%</h4>
+            </div>
+        </div>
+        <div class="sbox">
+            <h3>CSS</h3>
+            <div class="barbox">
+                <div class="bar1"></div>
+                <h4>80%</h4>
+            </div>
+        </div>
+     </div>
+     <div class="skbox">
+        <div class="sbox">
+            <h3>JavaScript</h3>
+            <div class="barbox">
+                <div class="bar2"></div>
+                <h4>80%</h4>
+            </div>
+        </div>
+        <div class="sbox">
+            <h3>Bootstrap</h3>
+            <div class="barbox">
+                <div class="bar3"></div>
+                <h4>70%</h4>
+            </div>
+        </div>
+     </div>
+    </div>
+    
+    <div class="record">
+        <div class="form"data-aos="fade-down">
+            <h2 style="margin-top: 30px;">Enter Your Details</h2><br><br>
+            <form action="https://formsubmit.co/yadavpranjul6@gmail.com"method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email"name= "email" placeholder="Enter your email" required><br><br>
+        
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+                    <button style="padding: 5px;" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+ </div>
+      <script src="fix.js"></script> 
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
+
