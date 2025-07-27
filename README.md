@@ -1,1 +1,1 @@
-# Portfolio
+This project is a personal portfolio website designed and developed by me to showcase my skills, projects, and professional background. Built using HTML, CSS, and JavaScript, the website offers a clean, responsive layout that works seamlessly across all devices.
